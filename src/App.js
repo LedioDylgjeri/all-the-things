@@ -3,7 +3,9 @@ import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
-import EduardoThings from './pages/EduardoThings/EduardoThings'
+=======
+import JohnsThings from './pages/JohnsThings/JohnsThings'
+>>>>>>> 0480846555c0faef0717d603c8ef86e8c6aee20c
 
 const App = () => {
   const bensThings = [
@@ -63,11 +65,19 @@ const App = () => {
     },
   ]
 
+<<<<<<< HEAD
   const eduardoThings = [
     {
       name: "energy drinks",
       image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+=======
+  const johnsThings = [
+    {
+      name: "juice",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["smiley", "bored", "dumplings", "has a dog"],
+>>>>>>> 0480846555c0faef0717d603c8ef86e8c6aee20c
     },
   ]
 
@@ -88,8 +98,13 @@ const App = () => {
         element={<SillyThings things={huntersThings} />}
       />
       <Route
+<<<<<<< HEAD
         path="/eduardo"
         element={<EduardoThings things={eduardoThings} />}
+=======
+        path="/the-john-things"
+        element={<JohnsThings things={johnsThings} />}
+>>>>>>> 0480846555c0faef0717d603c8ef86e8c6aee20c
       />
     </Routes>
   )
