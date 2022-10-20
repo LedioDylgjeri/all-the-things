@@ -99,9 +99,6 @@ const App = () => {
       <Route
         path="/eduardo"
         element={<EduardoThings things={eduardoThings} />}
-        </Route>
-        path="/the-john-things"
-        element={<JohnsThings things={johnsThings} />}
       />
     </Routes>
   )
